@@ -113,9 +113,3 @@ Device 1: ID 0781:5583 SanDisk Ultra Fit MaxPower: 200mA
 ## 👥 Authors
 
 * **Baraa Ben Dahod**
-
-```
-
-```
-
-

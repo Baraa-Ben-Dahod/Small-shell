@@ -60,18 +60,32 @@ To compile the project, navigate to the root directory and run:
 ```bash
 make
 
-Run
+```
+
+### Run
+
 Start the shell:
+
+```bash
 ./smash
 
-Usage Examples
-1. Basic Commands & Aliases
+```
+
+### Usage Examples
+
+**1. Basic Commands & Aliases**
+
+```bash
 smash> chprompt my_shell
 my_shell> alias l='ls -l'
 my_shell> l
 # Lists files in long format...
 
-2. Background Jobs & Piping
+```
+
+**2. Background Jobs & Piping**
+
+```bash
 smash> sleep 100 &
 [1] sleep 100&
 smash> jobs
@@ -79,17 +93,29 @@ smash> jobs
 smash> ls | grep Makefile
 Makefile
 
-3. System Info
+```
+
+**3. System Info**
+
+```bash
 smash> usbinfo
 Device 1: ID 0781:5583 SanDisk Ultra Fit MaxPower: 200mA
 
-📂 Project Structure
- * smash.cpp: Main entry point containing the event loop.
- * Commands.h/cpp: Implementation of the Command classes, Factory, and built-in logic.
- * signals.h/cpp: Signal handling logic (Ctrl+C).
- * Makefile: Compilation rules.
-👥 Authors
- * Baraa Ben Dahod
-<!-- end list -->
+```
+
+## 📂 Project Structure
+
+* `smash.cpp`: Main entry point containing the event loop.
+* `Commands.h/cpp`: Implementation of the Command classes, Factory, and built-in logic.
+* `signals.h/cpp`: Signal handling logic (Ctrl+C).
+* `Makefile`: Compilation rules.
+
+## 👥 Authors
+
+* **Baraa Ben Dahod**
+
+```
+
+```
 
 
